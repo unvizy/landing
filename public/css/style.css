@@ -1,0 +1,108 @@
+/* Medium-like UI styling */
+:root {
+    --text-main: rgba(41, 41, 41, 1);
+    --text-muted: rgba(117, 117, 117, 1);
+    --bg-color: #ffffff;
+    --link-color: rgba(41, 41, 41, 1);
+    --link-hover: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.58;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Header */
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.site-title {
+    font-family: 'Sora', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin: 0;
+    color: var(--text-main);
+}
+
+/* Body Content */
+.page-content p {
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.page-content strong {
+    font-weight: 700;
+}
+
+.page-content em {
+    font-style: italic;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+    font-family: 'Sora', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 1.95em;
+    margin-bottom: -0.28em;
+    letter-spacing: -0.02em;
+}
+
+.page-content h2 {
+    font-size: 30px;
+}
+
+.page-content a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+}
+
+.page-content a:hover {
+    color: var(--link-hover);
+    text-decoration-thickness: 2px;
+}
+
+/* Footer Links */
+.links-footer {
+    margin-top: 50px;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.links-list a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-family: 'Sora', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.links-list a:hover {
+    color: var(--link-hover);
+}

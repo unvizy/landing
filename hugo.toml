@@ -1,0 +1,13 @@
+baseURL = "https://unvizy.github.io/"
+languageCode = "id-ID"
+title = "unvizy"
+theme = []
+
+[params]
+  description = "CTO | DevOps | System & Platform Engineer"
+  author = "Hary Miftah"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
