@@ -2,4 +2,4 @@
 title = "Home"
 +++
 
-it already happened. unfortunately.
+<center>it already happened. unfortunately</center>
